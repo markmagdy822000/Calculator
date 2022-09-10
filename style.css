@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+.calc{
+    width:400px;
+    /* height:588px; */
+    font-size:50px;
+    font-family:'Times New Roman', Times, serif ;
+    background-color: black;
+
+ 
+}
+.screen{
+    background-color: black;
+    color:#fff;
+    height:80px;
+}
+
+.btns{
+   
+}
+
+.btn{
+    border-radius:0px;
+    font-size:50px; 
+    width:24.5%;
+    height:100px;
+    font-family:'Times New Roman', Times, serif ;
+    color:#000;
+    background-color: #ddd;
+    cursor:pointer;
+
+}
+
+.row{
+    display:flex;
+    align-content:stretch;
+    justify-content:space-between;
+    margin-bottom:0.5%;
+}
+
+.btn:last-child{
+    background-color: #e7622d;
+}
+.double{
+    width:49.7%;
+}
+.triple{
+    width:74.7%;
+}
